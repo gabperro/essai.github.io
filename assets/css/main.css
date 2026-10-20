@@ -1897,7 +1897,7 @@ header.major h2 {
 }
 
 header.major h2 + p {
-  color: #1A1A1A;
+  color: #6b6b66;
   font-size: 1.75em;
   font-weight: 700;
   margin-top: -0.75em;
@@ -2484,6 +2484,7 @@ ul.feature-icons {
 }
 
 ul.feature-icons li {
+  font-family: 'IBM Plex Mono', monospace;
   text-decoration: none;
   display: inline-block;
   margin: 0 0 1.6875em 0;
