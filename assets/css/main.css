@@ -1862,7 +1862,7 @@ article.special {
 }
 
 header p {
-  color: #aaa;
+  color: #1A1A1A;
   position: relative;
   margin: 0 0 1.6875em 0;
 }
@@ -1888,12 +1888,12 @@ header h6 + p {
 }
 
 header.major h2 {
-  color: #b8947c;
+  color: #1A1A1A;
   font-size: 3.5em;
 }
 
 header.major h2 + p {
-  color: #777;
+  color: #1A1A1A;
   font-size: 1.75em;
   font-weight: 700;
   margin-top: -0.75em;
