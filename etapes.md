@@ -86,3 +86,9 @@ Il faut faire des commits régulièrement afin que le suivi du travail soit visi
   - Solution : ligne 248, 2830, 2874, 2923, 2931
 Problème 3 : Les couleurs du side pannel n'ont pas changé. 
 - Selon CODEX : j'ai somehow pas push (oups)
+- Fixed
+Probleme 4 : Je veux que la banniere reste tout le temps ouverte : 
+- Premier fix : nouvelle regle. 
+- Deuxieme fix : s'inspirer du header d'une autre template
+Probleme 5 : Tous les icones et boutons sont de la bonne couleur, sauf email, qui reste noir dans les brand icons. 
+- 
