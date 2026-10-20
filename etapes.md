@@ -84,4 +84,5 @@ Il faut faire des commits régulièrement afin que le suivi du travail soit visi
 - Problème 2 : Les couleurs ne changent pas. 
   - Selon CODEX : d'autres règles que celle que j'avais modifier l'override. 
   - Solution : ligne 248, 2830, 2874, 2923, 2931
-
+Problème 3 : Les couleurs du side pannel n'ont pas changé. 
+- Selon CODEX : j'ai somehow pas push (oups)
