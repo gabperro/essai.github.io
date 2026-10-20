@@ -2728,7 +2728,7 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-  background-color: #b8947c;
+  background-color: #1A1A1A;
   color: #ffffff !important;
 }
 
@@ -2896,6 +2896,14 @@ input[type="button"]:disabled,
   color: #5c4a3e;
 }
 
+#header > footer .icons li a.icon.brands {
+  color: #ffffff;
+}
+
+#header > footer .icons li a.icon.solid {
+  color: #000000;
+}
+
 #header > nav {
   -moz-flex-grow: 1;
   -webkit-flex-grow: 1;
@@ -3058,7 +3066,8 @@ input[type="button"]:disabled,
 /* Medium */
 
 #titleBar {
-  display: none;
+  display: block;
+  position : fixed; 
 }
 
 @media screen and (max-width: 1024px) {
@@ -3161,6 +3170,7 @@ input[type="button"]:disabled,
 
   #titleBar .title {
     color: #fff;
+    font-family : 'IBM Plex Mono', monospace;  
     display: block;
     font-weight: 700;
     height: 44px;
