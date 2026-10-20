@@ -245,7 +245,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #777;
+  color: #1A1A1A;
   font-weight: 700;
   line-height: 1em;
   margin: 0 0 0.5625em 0;
@@ -260,6 +260,7 @@ h6 a {
   border: 0;
   color: inherit;
   text-decoration: none;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 h2 {
@@ -2871,7 +2872,7 @@ input[type="button"]:disabled,
 }
 
 #header > header p {
-  color: #eadfd8;
+  color: #ffffff;
   font-style: italic;
   margin: 1em 0 0 0;
 }
@@ -2909,7 +2910,7 @@ input[type="button"]:disabled,
 }
 
 #header > nav ul li {
-  border-top: solid 2px #937663;
+  border-top: solid 2px #6b6b6b;
   display: block;
   padding: 0;
 }
