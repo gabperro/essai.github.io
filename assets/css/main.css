@@ -1864,6 +1864,7 @@ article.special {
 
 header p {
   color: #6b6b6b;
+  font-family : 'Baskerville', serif; 
   position: relative;
   margin: 0 0 1.6875em 0;
 }
