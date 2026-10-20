@@ -80,7 +80,8 @@ Il faut faire des commits régulièrement afin que le suivi du travail soit visi
  - Après premiers changement : fonctionne pas. 
  - Selon CODEX : je m'adressais pas à la bonne section 
   - Solution : #main.css(line2800) - fixer côté droit
+  - La solution n'a pas fonctionné. On va restaurer le code comme il l'était dans le template. 
 - Problème 2 : Les couleurs ne changent pas. 
   - Selon CODEX : d'autres règles que celle que j'avais modifier l'override. 
   - Solution : ligne 248, 2830, 2874, 2923, 2931
-  
+

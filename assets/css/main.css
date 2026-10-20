@@ -3110,6 +3110,10 @@ input[type="button"]:disabled,
     top: 0;
     width: 23em;
     z-index: 10002;
+    -moz-transform: translateX(23em);
+    -webkit-transform: translateX(23em);
+    -ms-transform: translateX(23em);
+    transform: translateX(23em);
     right: 0;
   }
 
