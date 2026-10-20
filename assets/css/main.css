@@ -1870,6 +1870,7 @@ header p {
 }
 
 header h2 + p {
+  font-family : IBM Plex mono; monospace;
   font-size: 1.25em;
   margin-top: -0.5em;
   line-height: 1.5em;
