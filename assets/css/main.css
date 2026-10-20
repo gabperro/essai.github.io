@@ -1873,6 +1873,7 @@ header h2 + p {
   font-size: 1.25em;
   margin-top: -0.5em;
   line-height: 1.5em;
+  color : #6b6b6b
 }
 
 header h3 + p {
