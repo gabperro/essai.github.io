@@ -94,4 +94,5 @@ Probleme 4 : Je veux que la banniere reste tout le temps ouverte :
 Probleme 5 : Tous les icones et boutons sont de la bonne couleur, sauf email, qui reste noir dans les brand icons. 
 - Premier fixe : changer couleur de .solid 
 Probleme 6 : je sais pas ce que j'ai fait mais j'ai tout brisé avec mon dernier move qui était d'ajouter science politique à mon header. 
-- Premier fix : Revenir en arrière
+- Premier fix : Revenir en arrière 
+- Deuxieme fix : diagnostic par Codex.Le probleme venait de mon changement icone email. 

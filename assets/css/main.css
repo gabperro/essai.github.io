@@ -3065,8 +3065,7 @@ input[type="button"]:disabled,
 /* Medium */
 
 #titleBar {
-  display: block;
-  position : fixed; 
+  display: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -3118,6 +3117,10 @@ input[type="button"]:disabled,
     top: 0;
     width: 23em;
     z-index: 10002;
+    -moz-transform: translateX(23em);
+    -webkit-transform: translateX(23em);
+    -ms-transform: translateX(23em);
+    transform: translateX(23em);
     right: 0;
   }
 
@@ -3169,7 +3172,6 @@ input[type="button"]:disabled,
 
   #titleBar .title {
     color: #fff;
-    font-family : 'IBM Plex Mono', monospace;  
     display: block;
     font-weight: 700;
     height: 44px;
@@ -3224,9 +3226,13 @@ input[type="button"]:disabled,
   }
 
   body.header-visible #wrapper,
- body.header-visible #header {
-  transform: translateX(0);
-}
+  body.header-visible #titleBar {
+    -moz-transform: translateX(-23em);
+    -webkit-transform: translateX(-23em);
+    -ms-transform: translateX(-23em);
+    transform: translateX(-23em);
+  }
+
   body.header-visible #header {
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
