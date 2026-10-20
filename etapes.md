@@ -95,4 +95,7 @@ Probleme 5 : Tous les icones et boutons sont de la bonne couleur, sauf email, qu
 - Premier fixe : changer couleur de .solid 
 Probleme 6 : je sais pas ce que j'ai fait mais j'ai tout brisé avec mon dernier move qui était d'ajouter science politique à mon header. 
 - Premier fix : Revenir en arrière 
-- Deuxieme fix : diagnostic par Codex.Le probleme venait de mon changement icone email. 
+- Deuxieme fix : diagnostic par Codex.Le probleme venait de mon changement icone email. f
+- Troisieme fix : Site web toujours brise. Deuxieme diagnostic plus large et restauration par codex. 
+Probleme 7 : Le bouton du side pannel est encore vieille couleur. 
+- Fix : Trouver avec Codex : ligne 3213. Changer couleur 
