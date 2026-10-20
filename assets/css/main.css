@@ -246,6 +246,7 @@ h4,
 h5,
 h6 {
   color: #1A1A1A;
+  font-family : 'Libre Baskerville', serif; 
   font-weight: 700;
   line-height: 1em;
   margin: 0 0 0.5625em 0;
@@ -262,7 +263,6 @@ h6 a {
   text-decoration: none;
   font-family: 'Libre Baskerville', serif;
 }
-
 h2 {
   font-size: 2em;
   line-height: 1.5em;
