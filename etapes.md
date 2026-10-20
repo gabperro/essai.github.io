@@ -51,9 +51,7 @@ Il faut faire des commits régulièrement afin que le suivi du travail soit visi
 - Relier le site à un nom de domaine personnalisé et activer HTTPS.
 - Créer un CV en PDF avec Quarto, l'ajouter dans un dossier `cv`, l'intégrer au site et offrir un lien de téléchargement.
 
-# Problèmes #
-- Problème 1 : le side pannel demeure ouvert tout le temps si en plein écran. 
- - Ce sera pour plus tard, c'est codé dans le Main.css mais j'aime quand même pas ça. 
+
 
 
 # Vagues de modifications
@@ -77,5 +75,12 @@ Il faut faire des commits régulièrement afin que le suivi du travail soit visi
 - Remplacer les images. 
 - Vérifier qu'aucun contenu n'est laissé. 
 
-Logs : 
-1. 
+# Problèmes #
+- Problème 1 : le side pannel demeure ouvert tout le temps si en plein écran. 
+ - Après premiers changement : fonctionne pas. 
+ - Selon CODEX : je m'adressais pas à la bonne section 
+  - Solution : #main.css(line2800) - fixer côté droit
+- Problème 2 : Les couleurs ne changent pas. 
+  - Selon CODEX : d'autres règles que celle que j'avais modifier l'override. 
+  - Solution : ligne 248, 2830, 2874, 2923, 2931
+  
