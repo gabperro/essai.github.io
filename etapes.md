@@ -90,5 +90,8 @@ Problème 3 : Les couleurs du side pannel n'ont pas changé.
 Probleme 4 : Je veux que la banniere reste tout le temps ouverte : 
 - Premier fix : nouvelle regle. 
 - Deuxieme fix : s'inspirer du header d'une autre template
+- Troisieme fix : abandonner 
 Probleme 5 : Tous les icones et boutons sont de la bonne couleur, sauf email, qui reste noir dans les brand icons. 
-- 
+- Premier fixe : changer couleur de .solid 
+Probleme 6 : je sais pas ce que j'ai fait mais j'ai tout brisé avec mon dernier move qui était d'ajouter science politique à mon header. 
+- Premier fix : Revenir en arrière
