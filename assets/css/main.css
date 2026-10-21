@@ -2815,7 +2815,7 @@ input[type="button"]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #6b6b6b;
+  background: #1A1A1A;
   color: #ffffff;
   height: 100%;
   overflow-y: auto;
@@ -2842,6 +2842,7 @@ input[type="button"]:disabled,
 #header h5 a,
 #header h6 a {
   color: #ffffff;
+  font-family : 'Libre Baskerville', serif; 
 }
 
 #header header p {
