@@ -62,6 +62,7 @@ Il faut faire des commits régulièrement afin que le suivi du travail soit visi
 - Créer une nouvelle manière d'insérer photo (je veux carré). + à côté de l'introduction sur première page. 
 - Changer les couleurs. 
 - Insérer boutons à mettre sur bannière. 
+- Ajouter des lignes blanches entre les sections dans side panel. 
 ## Vague 2 : Structure
 - Effacer la grande image de fond. 
 - Ajouter plusieurs sections en dessous de Introduction (qui-suis-je, que je fait, pourquoi?)
@@ -102,3 +103,7 @@ Probleme 7 : Le bouton du side pannel est encore vieille couleur.
 Probleme 8 : La photo avatar est restee ronde. 
 Probleme 9 : texte italique reste le meme. 
 FIX 1 : Trouver P BR dans main.css
+### Side pannel et banniere 
+Ça me gosse vraiment donc j'ai demandé à ChatGPT plutôt que Codex de m'apprendre comment faire. ChatGPT n'a pas accès au css.main ou au read.me. Donc je vais plus apprendre. 
+1. Trouver le media quiery @media dans le css.main 
+
