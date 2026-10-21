@@ -1870,7 +1870,7 @@ header p {
 }
 
 header h2 + p {
-  font-family : IBM Plex mono; monospace;
+  font-family : 'IBM Plex Mono', monospace;
   font-size: 1.25em;
   margin-top: -0.5em;
   line-height: 1.5em;
@@ -2908,7 +2908,6 @@ input[type="button"]:disabled,
 
 #header > footer .icons li a.icon.solid {
   color: #ffffff;
-  font-family: ;
 }
 
 #header > nav {
