@@ -2824,6 +2824,7 @@ input[type="button"]:disabled,
   top: 0;
   width: 23em;
   right: 0;
+  z-index : 10002;
 }
 
 #header h1,
