@@ -3472,5 +3472,12 @@ input[type="button"]:disabled,
   #wrapper {
     padding-right: 0;
   }
+  #header { 
+    transform : translateX(100%);
+    transition: transform 0.5s; 
+  }
+  body.header-visible #header{
+    transform: translateX(0);
+  }
 }
 
