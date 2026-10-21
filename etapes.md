@@ -103,7 +103,10 @@ Probleme 7 : Le bouton du side pannel est encore vieille couleur.
 Probleme 8 : La photo avatar est restee ronde. 
 Probleme 9 : texte italique reste le meme. 
 FIX 1 : Trouver P BR dans main.css
+Probleme 10 : Avec nouvelle regle : image couvre top. 
+Fix 1: Trouver #header et ajouter z-index : 10002; pour que header soit plus haut que le reste (10002 = valeur pour mobile ou site marche. )
 ### Side pannel et banniere 
 Ça me gosse vraiment donc j'ai demandé à ChatGPT plutôt que Codex de m'apprendre comment faire. ChatGPT n'a pas accès au css.main ou au read.me. Donc je vais plus apprendre. 
 1. Trouver le media quiery @media dans le css.main 
+
 
