@@ -99,3 +99,6 @@ Probleme 6 : je sais pas ce que j'ai fait mais j'ai tout brisé avec mon dernier
 - Troisieme fix : Site web toujours brise. Deuxieme diagnostic plus large et restauration par codex. 
 Probleme 7 : Le bouton du side pannel est encore vieille couleur. 
 - Fix : Trouver avec Codex : ligne 3213. Changer couleur 
+Probleme 8 : La photo avatar est restee ronde. 
+Probleme 9 : texte italique reste le meme. 
+FIX 1 : Trouver P BR dans main.css

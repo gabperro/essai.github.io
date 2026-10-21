@@ -3299,6 +3299,7 @@ input[type="button"]:disabled,
 
   header br {
     display: none;
+    font-family:'IBM Plex Mono', monospace;
   }
 
   header.major h2 {
