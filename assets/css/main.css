@@ -2923,7 +2923,7 @@ input[type="button"]:disabled,
 }
 
 #header > nav ul li {
-  border-top: solid 2px #6b6b6b;
+  border-top: solid 2px #ffffff;
   display: block;
   padding: 0;
 }
