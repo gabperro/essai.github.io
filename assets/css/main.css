@@ -2824,7 +2824,6 @@ input[type="button"]:disabled,
   top: 0;
   width: 23em;
   right: 0;
-  z-index : 10002;
 }
 
 #header h1,
@@ -3464,20 +3463,6 @@ input[type="button"]:disabled,
   input[type="button"],
   .button {
     padding: 0;
-  }
-}
-
-/* Ajout d'une regle pour maintenir sidebar et header no matter what*/ 
-@media screen and (min-width: 1025px) {
-  #wrapper {
-    padding-right: 0;
-  }
-  #header { 
-    transform : translateX(100%);
-    transition: transform 0.5s; 
-  }
-  body.header-visible #header{
-    transform: translateX(0);
   }
 }
 

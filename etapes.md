@@ -11,13 +11,11 @@ f
 ### Brainstorm 
 Je veux un site web simple mais épuré. Je préfère blanc et noir, voire crème mais avec une police d'écriture style sérif, plus vieillot #*vintage*. 
 ### Étapes de modification : 
-Avant : régler le problème avec l'index actuel : le side pannel ne fonctionne pas sur le site Web. Il apparaît juste quand le site n'est pas en plein écran. 
 1. Remplacer le titre, le nom, la biographie et les autres renseignements personnels.
-2. Je veux que la photo soit carrée dans le side pannel. 
+2. Je veux que la photo soit carrée.
 3. Je veux changer les couleurs de la police et des sections pour aller du blanc au noir. 
 4. Je veux une police d'écriture qui corresponde plus à mes attentes. 
-5. Je ne veux pas de grosse photo d'arrière plan. Mais plutôt une bannière avec des liens vers les pages à droite et mon nom Gabriel Perreault - Science politique à gauche.  
-6. Je veux pages (pas séparées): 
+5. Je veux pages (pas séparées):
    - Introduction avec liens vers les autres fichiers;  une courte biographie (Qui-je suis, ce que je fait, pourquoi?)
    - CV avec pdf fait avec Quarto, travaux marquants et recherche (plus tard, j'aimerais voir s'il serait possible de mettre les travaux quanti que j'ai fait sur R à Mannheim dans un repo github) 
    - Contacts. 
@@ -61,8 +59,6 @@ Il faut faire des commits régulièrement afin que le suivi du travail soit visi
 - Créer des headers avec ces nouvelles polices. 
 - Créer une nouvelle manière d'insérer photo (je veux carré). + à côté de l'introduction sur première page. 
 - Changer les couleurs. 
-- Insérer boutons à mettre sur bannière. 
-- Ajouter des lignes blanches entre les sections dans side panel. 
 ## Vague 2 : Structure
 - Effacer la grande image de fond. 
 - Ajouter plusieurs sections en dessous de Introduction (qui-suis-je, que je fait, pourquoi?)
@@ -77,36 +73,15 @@ Il faut faire des commits régulièrement afin que le suivi du travail soit visi
 - Vérifier qu'aucun contenu n'est laissé. 
 
 # Problèmes #
-- Problème 1 : le side pannel demeure ouvert tout le temps si en plein écran. 
- - Après premiers changement : fonctionne pas. 
- - Selon CODEX : je m'adressais pas à la bonne section 
-  - Solution : #main.css(line2800) - fixer côté droit
-  - La solution n'a pas fonctionné. On va restaurer le code comme il l'était dans le template. 
 - Problème 2 : Les couleurs ne changent pas. 
   - Selon CODEX : d'autres règles que celle que j'avais modifier l'override. 
   - Solution : ligne 248, 2830, 2874, 2923, 2931
-Problème 3 : Les couleurs du side pannel n'ont pas changé. 
-- Selon CODEX : j'ai somehow pas push (oups)
-- Fixed
-Probleme 4 : Je veux que la banniere reste tout le temps ouverte : 
-- Premier fix : nouvelle regle. 
-- Deuxieme fix : s'inspirer du header d'une autre template
-- Troisieme fix : abandonner 
 Probleme 5 : Tous les icones et boutons sont de la bonne couleur, sauf email, qui reste noir dans les brand icons. 
 - Premier fixe : changer couleur de .solid 
 Probleme 6 : je sais pas ce que j'ai fait mais j'ai tout brisé avec mon dernier move qui était d'ajouter science politique à mon header. 
 - Premier fix : Revenir en arrière 
 - Deuxieme fix : diagnostic par Codex.Le probleme venait de mon changement icone email. f
 - Troisieme fix : Site web toujours brise. Deuxieme diagnostic plus large et restauration par codex. 
-Probleme 7 : Le bouton du side pannel est encore vieille couleur. 
-- Fix : Trouver avec Codex : ligne 3213. Changer couleur 
 Probleme 8 : La photo avatar est restee ronde. 
 Probleme 9 : texte italique reste le meme. 
 FIX 1 : Trouver P BR dans main.css
-Probleme 10 : Avec nouvelle regle : image couvre top. 
-Fix 1: Trouver #header et ajouter z-index : 10002; pour que header soit plus haut que le reste (10002 = valeur pour mobile ou site marche. )
-### Side pannel et banniere 
-Ça me gosse vraiment donc j'ai demandé à ChatGPT plutôt que Codex de m'apprendre comment faire. ChatGPT n'a pas accès au css.main ou au read.me. Donc je vais plus apprendre. 
-1. Trouver le media quiery @media dans le css.main 
-
-
